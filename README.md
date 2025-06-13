@@ -1,26 +1,51 @@
-# ALX_Simple_Quiz
+# ALX Simple Projects
 
-## Project Overview
-This repository contains a simple interactive quiz web application built with HTML, CSS, and JavaScript. The quiz presents a single question with multiple-choice answers. Users select their answer and receive instant feedback indicating whether their choice was correct or not.
-
-## Files in the Repository
-- `index.html` — The HTML structure of the quiz page.
-- `styles.css` — The CSS styles that design the quiz interface.
-- `quiz.js` — The JavaScript logic that handles the quiz functionality and user interaction.
-
-## How It Works
-- The user sees a question and multiple answer options.
-- After selecting an answer and clicking the "Submit Answer" button, the application checks if the selected answer matches the correct one.
-- Feedback is displayed below the button: "Correct! Well done." for a correct answer or "That's incorrect. Try again!" for an incorrect one.
-
-## Key Features
-- Simple, clean user interface designed with basic CSS.
-- Real-time answer validation using JavaScript.
-- Easy to expand for more questions or features.
-
-## Usage
-Open the `index.html` file in any modern web browser to start the quiz.
+This repository contains two simple interactive web applications designed to help learn and practice JavaScript and basic web development concepts:
 
 ---
 
-This project demonstrates fundamental web development skills including DOM manipulation, event handling, and basic user input validation.
+## 1. Simple Interactive Quiz
+
+A basic quiz app that asks a question and provides immediate feedback on the selected answer.
+
+- **Files**: `index.html`, `styles.css`, `quiz.js`
+- **Features**:
+  - Single question quiz with multiple-choice answers
+  - Validation of the selected answer on submit
+  - Feedback message displaying whether the answer is correct or incorrect
+
+---
+
+## 2. Simple Calculator
+
+An interactive calculator that performs basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+- **Files**: `calculator.html`, `calculator.css`, `calculator.js`
+- **Features**:
+  - Two input fields to enter numbers
+  - Buttons to perform arithmetic operations
+  - Real-time display of the calculation result
+  - Handles empty inputs by defaulting to 0
+
+---
+
+## Usage
+
+Open the respective `.html` files in a web browser to use the applications:
+
+- `index.html` for the quiz
+- `calculator.html` for the calculator
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+---
+
+## License
+
+MIT License
